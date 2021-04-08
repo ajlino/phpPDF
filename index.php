@@ -17,12 +17,27 @@
         <h1>Create your own PDF</h1>
         <p>fill out the details below and PDF will download</p>
 
-        <input type="text" name="fname" placeholder="First Name" />
-        <input type="text" name="lname" placeholder="Last Name" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="tel" name="phone" placeholder="Phone" />
-        <textarea name="message" placeholder="Your Message"></textarea>
-        <button type="submit">Create PDF</button>
+        <div class="row mb-2">
+
+          <div class="col-md-6">
+            <input type="text" name="fname" placeholder="First Name" class="form-control" required />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="lname" placeholder="Last Name" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="mb-2">
+            <input type="email" name="email" placeholder="Email" class="form-control" required/>
+        </div>
+        <div class="mb-2">
+          <input type="tel" name="phone" placeholder="Phone" class="form-control" required/>
+        </div>
+        <div class="mb-2">
+          <textarea name="message" placeholder="Your Message" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg w-100">Create PDF</button>
+
       </form>
 
     </div>
