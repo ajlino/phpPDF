@@ -13,7 +13,8 @@
 
     <div class="container mt-5">
 
-      <form>
+      <form action="makePdf.php" method="post" class="offset-md-3 col-md-6">
+
         <h1>Create your own PDF</h1>
         <p>fill out the details below and PDF will download</p>
 
